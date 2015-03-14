@@ -43,6 +43,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-Debug\
+Debug
 *.vcxproj
 *.filters
+.filters
+.vcxproj
+
