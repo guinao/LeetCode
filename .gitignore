@@ -44,8 +44,6 @@ Temporary Items
 .apdisk
 
 Debug
-*.vcxproj
-*.filters
-.filters
-.vcxproj
+LeetCode.vcxproj
+LeetCode.vcxproj.filters
 
