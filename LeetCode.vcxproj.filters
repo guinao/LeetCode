@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="String to Integer(atoi).cpp">
+    <ClCompile Include="Valid Palindrome.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

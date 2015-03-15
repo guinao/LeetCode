@@ -43,11 +43,15 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-Debug
+# User-specific files
+[Dd]ebug/
+[Rr]elease/
 LeetCode.vcxproj
 LeetCode.vcxproj.filters
 *.opensdf
 *.sdf
 *.suo
+*.user
+*.sln.docstates
 *.v11
 
