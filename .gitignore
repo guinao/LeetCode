@@ -46,4 +46,6 @@ Temporary Items
 Debug
 LeetCode.vcxproj
 LeetCode.vcxproj.filters
+*.opensdf
+*.sdf
 
