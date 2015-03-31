@@ -1,5 +1,7 @@
 #include <cstdio>
 #include <vector>
+#include <utility>
+#include <set>
 #include <algorithm>
 using namespace std;
 
@@ -7,6 +9,31 @@ class Solution {
 public:
 	vector<vector<int> > threeSum(vector<int> &num) {
 		vector<vector<int> > ans;
+
+		if(num.size() < 3)
+			return ans;
+
+		vector<pair<int, int> > pps;
+		vector<int> nums(num);
+		set<vector<int> > uniset;
+
+		sort(nums.begin(), nums.end());
+		for(auto i=nums.begin(); i!=nums.end(); ++i){
+			for(auto j=i+1; j!=nums.end(); ++j){
+				int k = *i + *j;
+				if(-k < *j) continue;
+				if(binary_search(nums.begin(), nums.end(), -k)){
+					vector<int> v;
+					v.push_back(*i);
+					v.push_back(*j);
+					v.push_back(-k);
+					if(uniset.count(v) == 0){
+						ans.push_back(v);
+						uniset.insert(v);
+					}
+				}
+			}
+		}
 		return ans;
 	}
 };
