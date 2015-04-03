@@ -1,7 +1,5 @@
 #include <cstdio>
 #include <vector>
-#include <utility>
-#include <set>
 #include <algorithm>
 using namespace std;
 
@@ -13,24 +11,33 @@ public:
 		if(num.size() < 3)
 			return ans;
 
-		vector<pair<int, int> > pps;
 		vector<int> nums(num);
-		set<vector<int> > uniset;
 
 		sort(nums.begin(), nums.end());
-		for(auto i=nums.begin(); i!=nums.end(); ++i){
-			for(auto j=i+1; j!=nums.end(); ++j){
-				int k = *i + *j;
-				if(-k < *j) continue;
-				if(binary_search(nums.begin(), nums.end(), -k)){
-					vector<int> v;
-					v.push_back(*i);
-					v.push_back(*j);
-					v.push_back(-k);
-					if(uniset.count(v) == 0){
-						ans.push_back(v);
-						uniset.insert(v);
-					}
+
+		for(int i=0; i<nums.size(); ++i){
+			if(i>0 && nums[i-1]==nums[i]) continue;
+			int a1 = nums[i];
+			int l = i+1;
+			int r = nums.size()-1;
+			while(l < r){
+				int k = a1 + nums[l] + nums[r];
+				if(k == 0){
+					vector<int> t(3);
+					t[0] = a1;
+					t[1] = nums[l];
+					t[2] = nums[r];
+					ans.push_back(t);
+					do{
+						++l;
+					} while(l<r && nums[l-1]==nums[l]);
+					do{
+						--r;
+					}while(l<r && nums[r+1] == nums[r]);
+				}else if(k > 0){
+					--r;
+				}else{
+					++l;
 				}
 			}
 		}
