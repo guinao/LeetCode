@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="3Sum.cpp">
+    <ClCompile Include="Word Break.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
