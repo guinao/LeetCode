@@ -4,17 +4,17 @@
 using namespace std;
 
 struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+	int val;
+	TreeNode *left;
+	TreeNode *right;
+	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
 class Solution {
 public:
-    vector<vector<int> > zigzagLevelOrder(TreeNode *root) {
+	vector<vector<int> > zigzagLevelOrder(TreeNode *root) {
 		vector<vector<int> > ans;
-        stack<TreeNode*> s[2];
+		stack<TreeNode*> s[2];
 		int l = 0;
 
 		if(root)
@@ -43,5 +43,5 @@ public:
 		}
 
 		return ans;
-    }
+	}
 };
