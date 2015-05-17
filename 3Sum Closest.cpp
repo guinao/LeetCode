@@ -15,19 +15,17 @@ public:
 
 		int ans = v[0]+v[1]+v[2];
 		for(int i=0; i<v.size(); ++i){
-			for(int j=i+1; j<v.size(); ++j){
-				int k = lower_bound(v.begin()+j+1, v.end(), target-v[i]-v[j]) - v.begin();
-				if(k < v.size()){
-					int p = v[i] + v[j] + v[k];
-					if(abs(ans-target) > abs(p-target))
-						ans = p;
-				}
-				k--;
-				if(k > j){
-					int p = v[i] + v[j] + v[k];
-					if(abs(ans-target) > abs(p-target))
-						ans = p;
-				}
+			int s = i+1, e = v.size()-1;
+			while(s < e){
+				int val = v[i] + v[s] + v[e];
+				if(abs(val-target) < abs(ans-target))
+					ans = val;
+				if(val > target)
+					--e;
+				else if(val < target)
+					++s;
+				else
+					return val;
 			}
 		}
 
@@ -49,4 +47,6 @@ int main()
 		}
 		printf("%d\n", s.threeSumClosest(v, target));
 	}
+
+	return 0;
 }
