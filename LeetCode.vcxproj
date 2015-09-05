@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Wildcard Matching.cpp" />
+    <ClCompile Include="Best Time to Buy and Sell Stock III.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{88827F8A-8CA9-4F0E-8E6B-2E240FB19592}</ProjectGuid>
