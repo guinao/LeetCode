@@ -10,6 +10,16 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Binary Tree Postorder Traversal.cpp" />
+    <ClCompile Include="Game of Life.cpp" />
+    <ClCompile Include="Rotate Image.cpp" />
+    <ClCompile Include="Maximal Rectangle.cpp" />
+    <ClCompile Include="Maximal Square v2.cpp" />
+    <ClCompile Include="Maximal Square.cpp" />
+    <ClCompile Include="Unique Paths%28math%29.cpp" />
+    <ClCompile Include="Unique Paths(dp).cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{88827F8A-8CA9-4F0E-8E6B-2E240FB19592}</ProjectGuid>
     <RootNamespace>LeetCode</RootNamespace>
