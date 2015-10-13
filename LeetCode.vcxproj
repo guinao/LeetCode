@@ -11,12 +11,19 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Best Time to Buy and Sell Stock IV.cpp" />
     <ClCompile Include="Binary Tree Postorder Traversal.cpp" />
+    <ClCompile Include="Course Schedule.cpp" />
     <ClCompile Include="Game of Life.cpp" />
+    <ClCompile Include="Generate Parentheses.cpp" />
+    <ClCompile Include="H-Index.cpp" />
+    <ClCompile Include="Peeking Iterator.cpp" />
+    <ClCompile Include="Perfect Squares.cpp" />
     <ClCompile Include="Rotate Image.cpp" />
     <ClCompile Include="Maximal Rectangle.cpp" />
     <ClCompile Include="Maximal Square v2.cpp" />
     <ClCompile Include="Maximal Square.cpp" />
+    <ClCompile Include="Sort Colors.cpp" />
     <ClCompile Include="Unique Paths%28math%29.cpp" />
     <ClCompile Include="Unique Paths(dp).cpp" />
   </ItemGroup>
