@@ -15,49 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Binary Tree Postorder Traversal.cpp">
+    <ClCompile Include="H-Index II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Unique Paths%28math%29.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Unique Paths(dp).cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Maximal Rectangle.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Maximal Square.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Maximal Square v2.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Rotate Image.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Game of Life.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Peeking Iterator.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Perfect Squares.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Generate Parentheses.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Sort Colors.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Course Schedule.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="H-Index.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Best Time to Buy and Sell Stock IV.cpp">
+    <ClCompile Include="Ugly Number II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
