@@ -15,10 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="H-Index II.cpp">
+    <ClCompile Include="Largest Number.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Ugly Number II.cpp">
+    <ClCompile Include="Minimum Path Sum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Permutations.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Next Permutation.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

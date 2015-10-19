@@ -11,8 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="H-Index II.cpp" />
-    <ClCompile Include="Ugly Number II.cpp" />
+    <ClCompile Include="Largest Number.cpp" />
+    <ClCompile Include="Minimum Path Sum.cpp" />
+    <ClCompile Include="Next Permutation.cpp" />
+    <ClCompile Include="Permutations.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{88827F8A-8CA9-4F0E-8E6B-2E240FB19592}</ProjectGuid>
