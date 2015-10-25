@@ -15,16 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Largest Number.cpp">
+    <ClCompile Include="Subsets.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Minimum Path Sum.cpp">
+    <ClCompile Include="Spiral Matrix.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Permutations.cpp">
+    <ClCompile Include="Spiral Matrix II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Next Permutation.cpp">
+    <ClCompile Include="Rotate List.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Swap Nodes in Pairs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Palindrome Partitioning.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Container With Most Water.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
