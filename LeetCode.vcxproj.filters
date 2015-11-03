@@ -15,25 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Subsets.cpp">
+    <ClCompile Include="Serialize and Deserialize Binary Tree.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Spiral Matrix.cpp">
+    <ClCompile Include="Kth Smallest Element in a BST.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Spiral Matrix II.cpp">
+    <ClCompile Include="Find Peak Element.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Rotate List.cpp">
+    <ClCompile Include="Basic Calculator.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Swap Nodes in Pairs.cpp">
+    <ClCompile Include="Basic Calculator II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Palindrome Partitioning.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Container With Most Water.cpp">
+    <ClCompile Include="Expression Add Operators.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

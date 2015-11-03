@@ -11,13 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Container With Most Water.cpp" />
-    <ClCompile Include="Palindrome Partitioning.cpp" />
-    <ClCompile Include="Rotate List.cpp" />
-    <ClCompile Include="Spiral Matrix II.cpp" />
-    <ClCompile Include="Spiral Matrix.cpp" />
-    <ClCompile Include="Subsets.cpp" />
-    <ClCompile Include="Swap Nodes in Pairs.cpp" />
+    <ClCompile Include="Basic Calculator II.cpp" />
+    <ClCompile Include="Basic Calculator.cpp" />
+    <ClCompile Include="Find Peak Element.cpp" />
+    <ClCompile Include="Expression Add Operators.cpp" />
+    <ClCompile Include="Kth Smallest Element in a BST.cpp" />
+    <ClCompile Include="Serialize and Deserialize Binary Tree.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{88827F8A-8CA9-4F0E-8E6B-2E240FB19592}</ProjectGuid>
