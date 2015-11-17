@@ -15,22 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Serialize and Deserialize Binary Tree.cpp">
+    <ClCompile Include="Nim Game.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Kth Smallest Element in a BST.cpp">
+    <ClCompile Include="Move Zeros.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Find Peak Element.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Basic Calculator.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Basic Calculator II.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Expression Add Operators.cpp">
+    <ClCompile Include="Range Sum Query 2D.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -11,12 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Basic Calculator II.cpp" />
-    <ClCompile Include="Basic Calculator.cpp" />
-    <ClCompile Include="Find Peak Element.cpp" />
-    <ClCompile Include="Expression Add Operators.cpp" />
-    <ClCompile Include="Kth Smallest Element in a BST.cpp" />
-    <ClCompile Include="Serialize and Deserialize Binary Tree.cpp" />
+    <ClCompile Include="Move Zeros.cpp" />
+    <ClCompile Include="Nim Game.cpp" />
+    <ClCompile Include="Range Sum Query 2D.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{88827F8A-8CA9-4F0E-8E6B-2E240FB19592}</ProjectGuid>
