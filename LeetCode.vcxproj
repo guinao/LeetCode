@@ -10,11 +10,6 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Move Zeros.cpp" />
-    <ClCompile Include="Nim Game.cpp" />
-    <ClCompile Include="Range Sum Query 2D.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{88827F8A-8CA9-4F0E-8E6B-2E240FB19592}</ProjectGuid>
     <RootNamespace>LeetCode</RootNamespace>
