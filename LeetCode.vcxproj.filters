@@ -15,7 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Additive Number.cpp">
+    <ClCompile Include="Add and Search Word - Data structure design.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Super Ugly Number.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Best Time to Buy and Sell Stock with Cooldown.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Maximum Product of Word Lengths.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Expression Add Operators.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Word Ladder II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bulb Switcher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Median of Two Sorted Arrays.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -11,7 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Additive Number.cpp" />
+    <ClCompile Include="Add and Search Word - Data structure design.cpp" />
+    <ClCompile Include="Best Time to Buy and Sell Stock with Cooldown.cpp" />
+    <ClCompile Include="Expression Add Operators.cpp" />
+    <ClCompile Include="Maximum Product of Word Lengths.cpp" />
+    <ClCompile Include="Median of Two Sorted Arrays.cpp" />
+    <ClCompile Include="Super Ugly Number.cpp" />
+    <ClCompile Include="Bulb Switcher.cpp" />
+    <ClCompile Include="Word Ladder II.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{88827F8A-8CA9-4F0E-8E6B-2E240FB19592}</ProjectGuid>
