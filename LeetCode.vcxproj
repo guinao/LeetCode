@@ -11,10 +11,25 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Dungeon Game.cpp" />
+    <ClCompile Include="First Missing Positive.cpp" />
+    <ClCompile Include="Insert Interval.cpp" />
+    <ClCompile Include="Interleaving String.cpp" />
+    <ClCompile Include="Jump Game II.cpp" />
+    <ClCompile Include="Largest Rectangle in Histogram.cpp" />
+    <ClCompile Include="Longest Valid Parentheses.cpp" />
+    <ClCompile Include="Merge Intervals.cpp" />
+    <ClCompile Include="Merge k Sorted Lists.cpp" />
+    <ClCompile Include="Minimum Window Substring.cpp" />
+    <ClCompile Include="Recover Binary Search Tree.cpp" />
     <ClCompile Include="Remove Invalid Parentheses.cpp" />
     <ClCompile Include="Reverse Nodes in k-Group.cpp" />
     <ClCompile Include="Scramble String.cpp" />
+    <ClCompile Include="Substring with Concatenation of All Words.cpp" />
+    <ClCompile Include="Sudoku Solver.cpp" />
+    <ClCompile Include="Text Justification.cpp" />
     <ClCompile Include="Trapping Rain Water.cpp" />
+    <ClCompile Include="Valid Number.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{88827F8A-8CA9-4F0E-8E6B-2E240FB19592}</ProjectGuid>
