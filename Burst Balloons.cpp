@@ -14,9 +14,11 @@ public:
 #define A(x) (0<=(x)&&(x)<nums.size()? nums[(x)] : 1)
 
 		for(int l=0; l<nums.size(); ++l){
-			for(int i=0; i<nums.size(); ++i){
+			for(int i=0; i+l<nums.size(); ++i){
 				for(int k=i; k<=i+l; ++k){
-					dp[i][i+l] = max(dp[i][i+l], A(i-1)*A(k)*A(i+l+1)+dp[k+1][i+l] + dp[i][k-1]);
+					int a = k+1==nums.size()? 0 : dp[k+1][i+l];
+					int b = k==0? 0 : dp[i][k-1];
+					dp[i][i+l] = max(dp[i][i+l], A(i-1)*A(k)*A(i+l+1)+ a + b);
 				}
 			}
 		}
