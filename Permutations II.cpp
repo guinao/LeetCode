@@ -1,7 +1,3 @@
-#include <vector>
-#include <algorithm>
-using namespace std;
-
 class Solution {
 public:
 	vector<vector<int>> permuteUnique(vector<int>& nums) {
@@ -13,11 +9,13 @@ public:
 
 		bool flag = true;
 		while(flag){
+		    ans.push_back(nums);
 			flag = false;
 			for(int i=nums.size()-1; i>0; --i){
 				if(nums[i] > nums[i-1]){
-					swap(nums[i], nums[i-1]);
-					ans.push_back(nums);
+					sort(nums.begin()+i, nums.end());
+					int k = upper_bound(nums.begin()+i, nums.end(), nums[i-1]) - nums.begin();
+					swap(nums[k], nums[i-1]);
 					flag = true;
 					break;
 				}
